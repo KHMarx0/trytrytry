@@ -33,14 +33,14 @@ background-color: #FFF;
     margin: -20px auto;
     text-decoration-style: bold;
       font-family: 'Pacifico', cursive;
-              text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+              text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
 }
 
 #userName h2 {
     margin-top: 5px;
     text-transform: none;
         font-size: 1.3rem;
-text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
       font-family: 'Roboto Slab', serif;
 }
 
