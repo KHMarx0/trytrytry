@@ -106,15 +106,15 @@ max-width: 470px;
 margin: 10px auto;
 padding: 17px;
 border-radius: 10px;
-background-color: rgba(177, 206, 222, 0.7);
+background-color: rgba(140, 157, 173, 0.7);
 cursor: pointer;
 color: #fff;
 text-align: center;
 text-decoration: none;
 font-size: 1.3rem;
-text-shadow: 1px 1px 0px #5987a1, 1px 1px 6px #6a97b0;
+text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
 transition: all .25s cubic-bezier(.08, .59, .29, .99);
-box-shadow:   3px 3px 0px #c5dce8, 5px 5px 5px #93b9cd;
+box-shadow:   3px 3px 0px #596675, 5px 5px 5px #171d24;
 font-family: 'Roboto Slab', serif;
 }
 /* Estilo botón cuando su INPUT está seleccionado */
