@@ -1,0 +1,140 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    background: url('../bg.gif') repeat;
+    background-color: #c2d9e5;
+    -webkit-background-size: 300px 300px;
+-moz-background-size: 300px 300px;
+-o-background-size: 300px 300px;
+background-size: 300px 300px;
+}
+
+#userPhoto {
+    display: block;
+    margin: 10px auto;
+    border-radius: 100%;
+background-color: #FFF;
+}
+
+#userName {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+      font-family: 'Roboto Slab', serif;
+
+}
+
+#userName h1 {
+ font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin: -20px auto;
+    text-decoration-style: bold;
+      font-family: 'Pacifico', cursive;
+              text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+}
+
+#userName h2 {
+    margin-top: 5px;
+    text-transform: none;
+        font-size: 1.3rem;
+text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+      font-family: 'Roboto Slab', serif;
+}
+
+#userName p {
+ background: rgb(147,188,210);
+background: linear-gradient(0deg, rgba(147,188,210,1) 0%, rgba(177,206,222,1) 100%); 
+        max-width: 400px;
+        margin-top: 5px;
+    text-transform: none;
+        font-size: 1.3rem;
+text-shadow: 1px 1px 0px #6a97b0, 0px 0px 3px #6a97b0;
+      font-family: 'Roboto Slab', serif;
+    
+}
+
+
+
+i.fa {
+    margin-right: 0.3rem;
+}
+
+#links {
+    max-width: 400px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.link {
+font-family: 'Antonio', sans-serif;
+    display: block;
+    background-color: rgba(177, 206, 222, 0.80);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+text-shadow: 1px 1px 0px #5987a1, 1px 1px 6px #6a97b0;
+box-shadow:   3px 3px 0px #c5dce8, 5px 5px 5px #93b9cd;
+}
+
+.link:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    color: #9bbed2;
+    border: none;
+text-shadow:  -1px -1px #6793ab, 1px 1px 1px #FFF;
+    box-shadow:     3px 3px 0px #c5dce8, 2px 2px 10px #6a97b0;
+    
+}
+
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+display: none;
+}
+/* Estilo botón clicable */
+input[id^="spoiler"] + label {
+display: block;
+width: auto;
+max-width: 470px;
+margin: 10px auto;
+padding: 17px;
+border-radius: 10px;
+background-color: rgba(177, 206, 222, 0.7);
+cursor: pointer;
+color: #fff;
+text-align: center;
+text-decoration: none;
+font-size: 1.3rem;
+text-shadow: 1px 1px 0px #5987a1, 1px 1px 6px #6a97b0;
+transition: all .25s cubic-bezier(.08, .59, .29, .99);
+box-shadow:   3px 3px 0px #c5dce8, 5px 5px 5px #93b9cd;
+font-family: 'Roboto Slab', serif;
+}
+/* Estilo botón cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #9bbed2;
+    border: none;
+text-shadow:  -1px -1px #6793ab, 1px 1px 1px #FFF;
+    box-shadow:     3px 3px 0px #c5dce8, 2px 2px 10px #6a97b0;
+}
+/* Estilo caja SPOILER (inicialmente oculto) */
+input[id^="spoiler"] ~ .spoiler {
+width: 90%;
+height: 0;
+overflow: hidden;
+opacity: 0;
+margin: 10px auto 0;
+}
+/* Estilo caja SPOILER cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label + .spoiler{
+height: auto;
+opacity: 1;
+}
