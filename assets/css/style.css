@@ -119,11 +119,11 @@ font-family: 'Roboto Slab', serif;
 }
 /* Estilo botón cuando su INPUT está seleccionado */
 input[id^="spoiler"]:checked + label {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #9bbed2;
+    background-color: rgba(169, 155, 185, 0.3);
+    color: #384363;
     border: none;
-text-shadow:  -1px -1px #6793ab, 1px 1px 1px #FFF;
-    box-shadow:     3px 3px 0px #c5dce8, 2px 2px 10px #6a97b0;
+text-shadow:  -1px -1px #282e40, 1px 1px 1px #7f838f;
+    box-shadow:     5px 5px 0px #6b738a, 2px 2px 10px #303845;
 }
 /* Estilo caja SPOILER (inicialmente oculto) */
 input[id^="spoiler"] ~ .spoiler {
