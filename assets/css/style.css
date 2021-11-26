@@ -86,10 +86,10 @@ box-shadow:   3px 3px 0px #5e758f, 5px 5px 5px #374b61;
 }
 
 .link:hover {
-    background-color: rgba(91, 114, 140, 0.8);
+    background-color: rgba(91, 114, 140, 1);
     color: #fff;
     border: none;
-text-shadow: 1px 1px 0px #374b61, 1px 1px 6px #374b61;
+text-shadow: 1px 1px 0px #91a5ba, 1px 1px 6px #FFF;
 box-shadow:   3px 3px 0px #5e758f, 5px 5px 5px #374b61; 
 }
 
