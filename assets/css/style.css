@@ -72,7 +72,7 @@ i.fa {
 .link {
 font-family: 'Antonio', sans-serif;
     display: block;
-    background-color: rgba(177, 206, 222, 0.80);
+    background-color: rgba(91, 114, 140, 0.8);
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
@@ -81,8 +81,8 @@ font-family: 'Antonio', sans-serif;
     font-size: 1.2rem;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
-text-shadow: 1px 1px 0px #5987a1, 1px 1px 6px #6a97b0;
-box-shadow:   3px 3px 0px #c5dce8, 5px 5px 5px #93b9cd;
+text-shadow: 1px 1px 0px #374b61, 1px 1px 6px #374b61;
+box-shadow:   3px 3px 0px #5e758f, 5px 5px 5px #374b61;
 }
 
 .link:hover {
