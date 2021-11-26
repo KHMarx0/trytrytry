@@ -86,12 +86,11 @@ box-shadow:   3px 3px 0px #5e758f, 5px 5px 5px #374b61;
 }
 
 .link:hover {
-        background-color: rgba(255, 255, 255, 0.3);
-    color: #9bbed2;
+    background-color: rgba(91, 114, 140, 0.8);
+    color: #fff;
     border: none;
-text-shadow:  -1px -1px #6793ab, 1px 1px 1px #FFF;
-    box-shadow:     3px 3px 0px #c5dce8, 2px 2px 10px #6a97b0;
-    
+text-shadow: 1px 1px 0px #374b61, 1px 1px 6px #374b61;
+box-shadow:   3px 3px 0px #5e758f, 5px 5px 5px #374b61; 
 }
 
 /* Ocultar botón radio */
