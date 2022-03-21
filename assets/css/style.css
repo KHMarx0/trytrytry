@@ -45,6 +45,24 @@ text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
       font-family: 'Roboto Slab', serif;
 }
 
+#userName h3 {
+ font-size: 0.625rem;
+    margin: -15px 0px 10px 0px;
+    text-decoration-style: bold;
+      font-family: 'Arial';
+              text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
+    line-height: 1px;
+}
+
+#userName h4 {
+ font-size: 0.625rem;
+    margin: 10px 0px 10px 0px;
+    text-decoration-style: bold;
+      font-family: 'Arial';
+              text-shadow: 1px 1px 0px #171d24, 1px 1px 6px #171d24;
+    line-height: 1px;
+}
+
 #userName p {
  background: rgb(147,188,210);
 background: linear-gradient(0deg, rgba(147,188,210,1) 0%, rgba(177,206,222,1) 100%); 
